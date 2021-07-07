@@ -1,0 +1,7 @@
+# Map an index.html.erb view file to the student controller and 
+# iterate over the list of students returned from the index action in the controller. 
+# The index.html.erb file should be placed within a view/students folder.
+
+<p> <% @students.each do |student| %>
+<p> <%= student %>
+    <% end %> 
